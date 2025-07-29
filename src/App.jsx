@@ -156,12 +156,14 @@ const App = () => {
               </div>
             </div>
             <div className="portfolio-item">
-              <div className="portfolio-image">Project Screenshot</div>
+              <div className="portfolio-image">
+                <img src="/project2.png" alt="Your Photo" className="portofolio-image"/>
+              </div>
               <div className="portfolio-content">
-                <h3>Mobile App Design</h3>
-                <p>UI/UX design for a fitness tracking mobile application, including user research, wireframing, and high-fidelity prototypes.</p>
+                <h3>Face Recognition App</h3>
+                <p>Face Recognition System A real-time computer vision project that performs face recognition, gender detection, and age prediction, complete with attendance logging using OpenCV, Keras, and FaceNet.</p>
                 <div className="portfolio-links">
-                  <a href="#" className="portfolio-link">
+                  <a href="https://github.com/L3tzG0/face_recognition_app" className="portfolio-link">
                     <Github size={16} />
                     GitHub
                   </a>
@@ -173,10 +175,10 @@ const App = () => {
               </div>
             </div>
             <div className="portfolio-item">
-              <div className="portfolio-image">Project Screenshot</div>
+              <div className="portfolio-image"></div>
               <div className="portfolio-content">
-                <h3>Dashboard Analytics</h3>
-                <p>Interactive data visualization dashboard for business analytics, built with D3.js and featuring real-time data updates.</p>
+                <h3>Bookstore Website</h3>
+                <p>A simple bookstore website using HTML, CSS, JS, PHP, and MYSQL for the database.</p>
                 <div className="portfolio-links">
                   <a href="#" className="portfolio-link">
                     <Github size={16} />
