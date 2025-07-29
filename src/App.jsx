@@ -85,7 +85,7 @@ const App = () => {
             </div>
             <div className="about-image">
               <div className="profile-pic">
-                <img src="src\assets\img.jpg" alt="Your Photo" className="profile-image"/>
+                <img src="/img.jpg" alt="Your Photo" className="profile-image"/>
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ const App = () => {
           <div className="portfolio-grid">
             <div className="portfolio-item">
               <div className="portfolio-image">
-                <img src="src\assets\project1.png" alt="Your Photo" className="portofolio-image"/>
+                <img src="/project1.png" alt="Your Photo" className="portofolio-image"/>
               </div>
               <div className="portfolio-content">
                 <h3>Calorie Estimation App</h3>
