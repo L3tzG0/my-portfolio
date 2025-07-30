@@ -148,10 +148,10 @@ const App = () => {
                     <Github size={16} />
                     GitHub
                   </a>
-                  <a href="#" className="portfolio-link">
+                  {/* <a href="#" className="portfolio-link">
                     <Youtube size={16} />
                     Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -167,10 +167,10 @@ const App = () => {
                     <Github size={16} />
                     GitHub
                   </a>
-                  <a href="#" className="portfolio-link">
+                  {/* <a href="#" className="portfolio-link">
                     <Youtube size={16} />
                     Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -180,14 +180,31 @@ const App = () => {
                 <h3>Bookstore Website</h3>
                 <p>A simple bookstore website using HTML, CSS, JS, PHP, and MYSQL for the database.</p>
                 <div className="portfolio-links">
-                  <a href="#" className="portfolio-link">
+                  {/* <a href="#" className="portfolio-link">
                     <Github size={16} />
                     GitHub
                   </a>
                   <a href="#" className="portfolio-link">
                     <Youtube size={16} />
                     Demo
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div className="portfolio-item">
+              <div className="portfolio-image"></div>
+              <div className="portfolio-content">
+                <h3>Whatsapp Clone</h3>
+                <p>A chatting application made in android studio using Java and Firebase for storage.</p>
+                <div className="portfolio-links">
+                  {/* <a href="#" className="portfolio-link">
+                    <Github size={16} />
+                    GitHub
                   </a>
+                  <a href="#" className="portfolio-link">
+                    <Youtube size={16} />
+                    Demo
+                  </a> */}
                 </div>
               </div>
             </div>
