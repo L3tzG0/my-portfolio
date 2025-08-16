@@ -175,6 +175,25 @@ const App = () => {
               </div>
             </div>
             <div className="portfolio-item">
+              <div className="portfolio-image">
+                <img src="/project3.png" alt="Your Photo" className="portofolio-image"/>
+              </div>
+              <div className="portfolio-content">
+                <h3>Crackterview</h3>
+                <p>An AI-powered interview assessment platform designed to streamline the recruitment process for HR teams and improve preparation for job seekers. Made with the MERN stack, and integrated with Whisper for transcription, Qwen for summarization, and Gemini for interactive Q&A.</p>
+                <div className="portfolio-links">
+                  <a href="https://github.com/tannpsy/Crackterview/tree/frontend-backend-merge" className="portfolio-link">
+                    <Github size={16} />
+                    GitHub
+                  </a>
+                  {/* <a href="#" className="portfolio-link">
+                    <Youtube size={16} />
+                    Demo
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div className="portfolio-item">
               <div className="portfolio-image"></div>
               <div className="portfolio-content">
                 <h3>Bookstore Website</h3>
