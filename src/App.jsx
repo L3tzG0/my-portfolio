@@ -194,6 +194,31 @@ const App = () => {
               </div>
             </div>
             <div className="portfolio-item">
+              <div className="portfolio-image">
+                <img src="/project4.png" alt="Your Photo" className="portofolio-image"/>
+              </div>
+              <div className="portfolio-content">
+                <h3>Data Visualization</h3>
+                <p>This is a Power BI dashboard I created to analyze a survey of data professionals. To build this dashboard, I started with
+                  the raw survey data. I used Power BI to clean and
+                  transform the data, created a simple data model, and then
+                  built these visualizations to present the key findings. This
+                  was a great project to practice my end-to-end data
+                  visualization skills.
+                </p>
+                <div className="portfolio-links">
+                  <a href="https://github.com/L3tzG0/power_bi_projects/tree/main/project1" className="portfolio-link">
+                    <Github size={16} />
+                    GitHub
+                  </a>
+                  {/* <a href="#" className="portfolio-link">
+                    <Youtube size={16} />
+                    Demo
+                  </a> */}
+                </div>
+              </div>
+            </div>
+            <div className="portfolio-item">
               <div className="portfolio-image"></div>
               <div className="portfolio-content">
                 <h3>Bookstore Website</h3>
